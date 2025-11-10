@@ -53,7 +53,7 @@ let isDone: boolean = false;
 let isActive: boolean = true;
 
 // Common mistake
-let isValid: boolean = 1; // ❌ Type 'number' is not assignable to type 'boolean'
+let isInvalidBoolean: boolean = 1; // ❌ Type 'number' is not assignable to type 'boolean'
 
 // Correct: explicit boolean conversion
 let isValid: boolean = Boolean(1); // ✅
