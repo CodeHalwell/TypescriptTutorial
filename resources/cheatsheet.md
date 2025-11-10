@@ -294,8 +294,8 @@ function identity<T>(value: T): T {
   return value;
 }
 
-const result = identity<number>(42);
-const result = identity("hello"); // Type inferred
+const result1 = identity<number>(42);
+const result2 = identity("hello"); // Type inferred
 
 // Generic interface
 interface Box<T> {
