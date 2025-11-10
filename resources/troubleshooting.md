@@ -93,8 +93,8 @@ Duplicate identifier 'User'.
 1. **Same name used twice:**
    ```typescript
    // ❌ Error
-   interface User { }
-   type User = { };
+interface UserInterface { }
+type UserType = { };
 
    // ✅ Solution: Use different names
    interface User { }
