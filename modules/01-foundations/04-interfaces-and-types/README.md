@@ -31,14 +31,15 @@ const user: User = {
 };
 
 // ❌ Missing properties
-const invalidUser: User = {
+// ❌ Missing properties
+const invalidUser1: User = {
   id: 1,
   name: "Bob"
   // Error: Property 'email' is missing
 };
 
 // ❌ Extra properties
-const invalidUser: User = {
+const invalidUser2: User = {
   id: 1,
   name: "Charlie",
   email: "charlie@example.com",
