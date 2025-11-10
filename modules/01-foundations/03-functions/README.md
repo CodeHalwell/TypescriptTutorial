@@ -144,6 +144,11 @@ function calculateTax(price: number, rate: number): number {
 }
 
 // ❌ Potential issue: Inference might surprise you
+interface User {
+  age: number;
+}
+
+// ❌ Potential issue: Inference might surprise you
 function getUserStatus(user: User) {
   if (user.age >= 18) {
     return "adult"; // Inferred: string | boolean
